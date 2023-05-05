@@ -14,7 +14,7 @@ const axios = require('axios')
 const { cmd } = require('../lib')
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "question",
+            pattern: "سؤال",
             desc: "Random Question.",
             category: "fun",
             filename: __filename,
@@ -25,7 +25,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "truth",
+            pattern: "حقيقه",
             desc: "truth and dare(truth game.).",
             category: "fun",
             filename: __filename,
@@ -36,7 +36,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "dare",
+            pattern: "يجرؤ",
             desc: "truth and dare(dare game.).",
             category: "fun",
             filename: __filename,
@@ -69,8 +69,8 @@ cmd({
         var quoo = await axios.get(`https://favqs.com/api/qotd`)
         const replyf = `
 ╔════◇
-║ *🎗️Content:* ${quoo.data.quote.body}
-║ *👤Author:* ${quoo.data.quote.author}
+║ *🎗️المحتوى:* ${quoo.data.quote.body}
+║ *👤المؤلف:* ${quoo.data.quote.author}
 ║    
 ╚════════════╝ `
 return citel.reply(replyf)
