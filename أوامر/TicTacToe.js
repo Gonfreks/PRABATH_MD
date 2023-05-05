@@ -34,16 +34,16 @@ cmd(
         )
       ) {
         delete this.game
-        return citel.reply(`*Successfully Deleted running Xo game* ✅_`);
+        return citel.reply(`*تم حذف لعبةXO بنجاح* ✅_`);
         } else {
-              return citel.reply(`*No Xo game is running* ❗`)
+              return citel.reply(`*لاتوجد لعبة XO حاليا* ❗`)
                     
         }
   })
   
 cmd(
   {
-    pattern: "xo",
+    pattern:"اكس",
     desc: "Play TicTacToe",
     filename: __filename,
     category: "game",
@@ -61,7 +61,7 @@ cmd(
             [room.game.playerX, room.game.playerO].includes(citel.sender)
         )
       )
-        return citel.reply("*A game is already going on* ❗");
+        return citel.reply("*اللعبه جارية بالفعل* ❗");
       let room = Object.values(this.game).find(
         (room) =>
           room.state === "WAITING" && (text ? room.name === text : true)
@@ -151,10 +151,10 @@ cmd(
       ) {
         citel.reply(
           {
-            "-3": "*The game is over.*❗",
-            "-2": "*Invalid*❗",
-            "-1": "*Invalid Position*❗",
-            0: "*Invalid Position*❗",
+            "-3": "*انتهت اللعبة.*❗",
+            "-2": "*غير صالح*❗",
+            "-1": "*غير صحيح*❗",
+            0: "*غير صحيح*❗",
           }[ok]
         );
         return !0;
