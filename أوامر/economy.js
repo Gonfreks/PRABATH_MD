@@ -45,14 +45,14 @@
             let buttons = [{
                 buttonId: `${prefix}wallet`,
                 buttonText: {
-                    displayText: "Wallet👛",
+                    displayText: "المحفظه👛",
                 },
                 type: 1,
             },
             {
                 buttonId: `${prefix}Bank`,
                 buttonText: {
-                    displayText: "Bank🏦",
+                    displayText:"بنك🏦",
                 },
                 type: 1,
             },
@@ -60,7 +60,7 @@
         return await Void.sendButtonText(citel.chat, buttons, `🧧 You already claimed daily for today, come back in ${daily.cdL}🫡`, `${Config.ownername.split(' ')[0]}-Economy
 Version: 0.0.6`, citel);
 	 } else {
-	 citel.reply(`you claimed daily ${daily.amount} 🪙 for today🎉.`);   
+	 citel.reply(`لقد اخذت راتبك ${daily.amount} 🪙 اليوم مبروك🎉.`);   
 	 }
  }
  )
@@ -122,14 +122,14 @@ async(Void, citel, text,{ isCreator }) => {
               let buttons = [{
                 buttonId: `${prefix}wallet`,
                 buttonText: {
-                    displayText: "Wallet👛",
+                    displayText: "المحفظة👛",
                 },
                 type: 1,
             },
             {
                 buttonId: `${prefix}Bank`,
                 buttonText: {
-                    displayText: "Bank🏦",
+                    displayText: "بنك🏦",
                 },
                 type: 1,
             },
@@ -146,14 +146,14 @@ Version: 0.0.6`, citel);
               let buttonss = [{
                 buttonId: `${prefix}wallet`,
                 buttonText: {
-                    displayText: "Wallet👛",
+                    displayText:"االمحفظة�",
                 },
                 type: 1,
             },
             {
                 buttonId: `${prefix}Bank`,
                 buttonText: {
-                    displayText: "Bank🏦",
+                    displayText:"البنك🏦",
                 },
                 type: 1,
             },
@@ -171,14 +171,14 @@ Version: 0.0.6`, citel);
                let buttonst = [{
                 buttonId: `${prefix}wallet`,
                 buttonText: {
-                    displayText: "Wallet👛",
+                    displayText: "المحفظه👛",
                 },
                 type: 1,
             },
             {
                 buttonId: `${prefix}Bank`,
                 buttonText: {
-                    displayText: "Bank🏦",
+                    displayText: "البنك🏦",
                 },
                 type: 1,
             },
@@ -221,14 +221,14 @@ default:
          let buttons = [{
             buttonId: `${prefix}wallet`,
             buttonText: {
-                displayText: "Wallet👛",
+                displayText: "المحفظة👛",
             },
             type: 1,
         },
         {
             buttonId: `${prefix}Bank`,
             buttonText: {
-                displayText: "Bank🏦",
+                displayText: "البنك🏦",
             },
             type: 1,
         },
@@ -301,14 +301,14 @@ async(Void, citel, text,{ isCreator }) => {
         let buttons = [{
             buttonId: `${prefix}wallet`,
             buttonText: {
-                displayText: "Wallet👛",
+                displayText: "المحفظة👛",
             },
             type: 1,
         },
         {
             buttonId: `${prefix}Bank`,
             buttonText: {
-                displayText: "Bank🏦",
+                displayText: "البنك🏦",
             },
             type: 1,
         },
@@ -349,7 +349,7 @@ Version: 0.0.6`, citel);
         {
             buttonId: `${prefix}Bank`,
             buttonText: {
-                displayText: "Bank🏦",
+                displayText: "البنك🏦",
             },
             type: 1,
         },
@@ -382,7 +382,7 @@ Version: 0.0.6`, citel);
 
      //---------------------------------------------------------------------------
      cmd({
-        pattern: "bank",
+        pattern: "البنك",
         desc: "shows bank amount.",
         category: "economy",
         filename: __filename,
@@ -408,7 +408,7 @@ Version: 0.0.6`, citel);
         {
             buttonId: `${prefix}wallet`,
             buttonText: {
-                displayText: "Wallet👛",
+                displayText: "المحفظة👛",
             },
             type: 1,
         },
