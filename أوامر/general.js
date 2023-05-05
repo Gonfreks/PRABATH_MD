@@ -1,4 +1,4 @@
-/**
+
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
@@ -55,15 +55,20 @@ cmd({
     },
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
-        let cap = `*🌐 𝗣𝗥𝗔𝗕𝗔𝗧𝗛-𝗠𝗗 _𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ♦️*
+        let cap = `*🌐 𒆜GON BOT𒆜♦️*
 
-●. *Support group :* https://chat.whatsapp.com/KwFkWjI8qJ6B174esar8IM
+●. *Support group :* (اليك افضل 3جروبات لصنع البوت) 
+¦السينسي رايزل☜ https://chat.whatsapp.com/Fld2cn1jPaT6yAyPa1jjv2
+
+¦السينسي أل☜ https://chat.whatsapp.com/EwCh9XrjxmY68GeO8oVmMp
+
+¦السينسي لايت☜ https://chat.whatsapp.com/JTpMOr8MIVFJkdYHbuk1En
 
 ●. *Github:* https://github.com/PrabathLK/PRABATH_MD
 
 ●. *Developer:* https://github.com/PrabathLK
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
+gonbot ⦁ ᴍᴀᴅᴇ ʙʏ thomas
 ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
 `
         let buttonMessaged = {
@@ -82,7 +87,7 @@ cmd({
 
 cmd({
 
-            pattern: "logo",
+            pattern: "لوجو",
 
             desc: "(menu cmdlist).",
 
@@ -256,74 +261,74 @@ cmd({
 
                 
 
-📟 *Command:-* .sticker
-ℹ️ *Description:-* Photo To Sticker Made
-🔥 *Help:-* .sticker Mention Any Photo or Video
+📟 *Command:-* .ستيكر
+ℹ️ *Description:-* سيتم صناعة الملصق! 
+🔥 *Help:-* منشن اي صورة او فيديو واكتب ستيكر
 
 
-📟 *Command:-* .promote
-ℹ️ *Description:-* promote Admin
-🔥 *Help:-* .promote Tag Any User 
+📟 *Command:-* .رفع
+ℹ️ *Description:-* سيتم الترقيه الى ادمن
+🔥 *Help:-* منشن على شخص واكتب رفع
 
 
-📟 *Command:-* .demote
-ℹ️ *Description:-* Demote Admin
-🔥 *help:-* .promote tag Any User 
+📟 *Command:-* .تنزيل
+ℹ️ *Description:-* سيتم تنزيلك من الادمن
+🔥 *help:-* منشن مشرف واكتب تنزيل
 
 
-📟 *Command:-* .ban
-ℹ️ *Description:-* Cmd Block Use 
-🔥 *Help:-* .ban tag Any User
+📟 *Command:-* .بان
+ℹ️ *Description:-* سبتم عمل بان للشخص
+🔥 *Help:-* منشن شخص وتكتب بان
 
 
-📟 *Command:-* .unban
-ℹ️ *Description:-* Loked User Unblock
-🔥 *Help:-* .unban Tag Any User
+📟 *Command:-* .فك-البان
+ℹ️ *Description:-* سيتم فك الباند على الشخص
+🔥 *Help:-* منشن واكتب فك-البان
 
 
-📟 *Command:-* .kick
-ℹ️ *Description:-* Remove Participants On Group
-🔥 *Help:-* .kick Tag Any User
+📟 *Command:-* .طرد
+ℹ️ *Description:-* سيتم طرد العضو من الجروب
+🔥 *Help:-* منشن واكتب طرد
 
 
-📟 *Command:-* .add
-ℹ️ *Description:-* Add Participants On Group
-🔥 *Help:-* .add Mobile number
+📟 *Command:-* .اضافه
+ℹ️ *Description:-* سيتم اضافه العضو
+🔥 *Help:-* منشن رقم الشخص واكتب اضافه
 
 
-📟 *Command:-* .poll
-ℹ️ *Description:-* Create poll For Group
-🔥 *Help:-* .poll question option1 option2 option3
+📟 *Command:-* .تصويت
+ℹ️ *Description:-* سيتم التصويت ف الجروب
+🔥 *Help:-* اسطلاع سؤلل مثلا سؤال1 سؤال2 سؤال3
 
 
-📟 *Command:-* .profile
-ℹ️ *Description:-* Profile Imfomation Get
-🔥 *Help:-* .profile Tag Any user
+📟 *Command:-* .بروفايل
+ℹ️ *Description:-* سيتم تنزيل بروفايلك ف الجروب
+🔥 *Help:-* منشن واكتب بروفايل
 
 
-📟 *Command:-* .group
-ℹ️ *Description:-* Group Mute or Unmute
-🔥 *Help:-* .group
+📟 *Command:-* .جروب
+ℹ️ *Description:-* تقدر تفتتح وتقفل الجروب
+🔥 *Help:-* جروب
 
 
-📟 *Command:-* .gdp
-ℹ️ *Description:-* Group Profile Photo Change
-🔥 *Help:-* .gdp Tag Any photo
+📟 *Command:-* .صورة-الجروب
+ℹ️ *Description:-* سيتم تغير صورة الجروب
+🔥 *Help:-* منشن الصورة واكتب الامر
 
 
-📟 *Command:-* .del
-ℹ️ *Description:-* Delete message
-🔥 *Help:-* .del tag message
+📟 *Command:-* .حذف
+ℹ️ *Description:-* سيتم حذف الرساله
+🔥 *Help:-* منشن الرساله وسيتم حذفها بمجرد كتابة حذف
 
 
-📟 *Command:-* .antilink
-ℹ️ *Description:-* Link Remover
-🔥 *Help:-* .antilink Active or Deactive
+📟 *Command:-* .الروابط
+ℹ️ *Description:-* سيتم طرد اي شخص يحط رابط بالجروب
+🔥 *Help:-* اكتب الروابط لمنع اي رابط وطرد المخالف من المجموعه
 
 
-📟 *Command:-* .tag
-ℹ️ *Description:-* Tag All Group Users
-🔥 *Help:-* .tag
+📟 *Command:-* .منشن
+ℹ️ *Description:-* منشن لاعضاء الجروب
+🔥 *Help:-* .منشن
 
 
 📟 *Command:-* .getjids
@@ -331,29 +336,29 @@ cmd({
 🔥 *Help:-* .getjids
 
 
-📟 *Command:-* .rank
-ℹ️ *Description:-* Check Rank
-🔥 *Help:-* .rank Tag Any User
+📟 *Command:-* .رانك
+ℹ️ *Description:-* معرفة المستوى
+🔥 *Help:-* اكتب رانك او منشن وشوف المستوى
 
 
-📟 *Command:-* .setwelcome
-ℹ️ *Description:-* Welcome message Change
-🔥 *Help:-* .setwelcome Your welcome Message
+📟 *Command:-* .الترحيب 
+ℹ️ *Description:-* تغير رسالة الترحيب
+🔥 *Help:-* اكتب الرساله وبعدها امر الترحيب
 
 
-📟 *Command:-* .setgoodbye
-ℹ️ *Description:-* goodbye message change 
-🔥 *Help:-* .setgoodbye Your Goodbye Message
+📟 *Command:-* .الوداع
+ℹ️ *Description:-* تغير رسالة الوداع
+🔥 *Help:-* اكتب الرساله وبعدها اكتب الامر
 
 
 📟 *Command:-* .gs
-ℹ️ *Description:-* Group settings change
+ℹ️ *Description:-* تغيير اعدادات المجموعة
 🔥 *Help:-* .gs
 
 
-📟 *Command:-* .settings
-ℹ️ *Description:-* change group settings
-🔥 *Help:-* .settings
+📟 *Command:-* .الاعدادات
+ℹ️ *Description:-* تغيير اعدادات المجموعه
+🔥 *Help:-* .اعدادات
 
 
 ⦿. *REQUEST BY:* ${citel.pushName}
@@ -414,76 +419,76 @@ cmd({
                 caption: `
 
 ┌────────────────────────────
-│  👨‍💻 *PRABATH-MD* 👨‍💻  *COMMANDS* 🎗️
+│  👨‍💻 *𒆜GON BOT𒆜* 👨‍💻  *اوامر البوت* 🎗️
 └────────────────────────────
 
 
-┌─(📥 ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ)
-│.song
-│.video
+┌─(📥 اوامر التنزيل)
+│.اغنيه
+│.فيديو
 │.apk
 │.docsong 
 │.docvideo
 │.fb
-│.tiktok
-│.img
+│.تيكتوك
+│.صوره
 │.mp4down
 │.fbs
 └─────────◉
-┌─(🔍 ꜱᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(🔍اوامر البحث)
 │.findvideo
 │.findsong
-│.yts
-│.weather
+│.يوتيوب
+│.الطقس
 │.movie
 └─────────◉
-┌─(🧰 ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅꜱ)
-│.sticker
+┌─(🧰 اوامر التحويل)
+│.ستيكر
 │.attp
 │.ttp
-│.logo
+│.لوجو
 │.ss
-│.trt
+│.ترجم
 └─────────◉
-┌─(👥 ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅꜱ)
-│.kick
-│.promote
-│.demote
+┌─(👥 اوامر الجروب)
+│.طرد
+│.رفع
+│.تنزيل
 │.htg
-│.setwelcome
-│.setgoodbye
+│.الترحيب
+│.الوداع
 │.gs
-│.ban
-│.unban
-│.ping
+│.بان
+│.فك-البان
+│.السرعه
 │.del
 │.gdp
 └─────────◉
-┌─(🧑‍💻 ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(🧑‍💻 اوامر المشرف)
 │.ujid
-│.block
-│.unblock
-│.restart
-│.join
-│.save
+│.حظر
+│.فك-الحظر
+│.رستر
+│.ادخل
+│.حفظ
 │.dnote
 │.dallnote
 └─────────◉
-┌─( 🎮 ɢᴀᴍᴇ ᴄᴏᴍᴍᴀɴᴅꜱ)
-│.xo
-│.dadu
+┌─( 🎮 اوامر الالعاب)
+│.اكس
+│.النرد
 └─────────◉
-┌─(💬 ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ)
+┌─(💬 اوامر جانبية)
 │.alive
-│.rank
-│.profile
-│.system
+│.رانك
+│.بروفايل
+│.سيستم
 │.eval
-│.qr
+│.كود-gr
 │.sn
 └─────────◉
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
+gonbot-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ thomas
 ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
 `,
 
@@ -537,7 +542,7 @@ cmd({
                 caption: `
 
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━
-┃  *GROUP SETTINGS CHANGE*
+┃  *اعدادات الجروبات*
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
@@ -557,7 +562,7 @@ cmd({
 ✅ *ACTIVE ADD AND LEFT MSJ -* .act events
 ❌ *DEACTIVE ADD AND LEFT MSJ -* .deact events
 
-ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ
+gonbot-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ thomas
 ʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸
 `,
 
@@ -580,7 +585,7 @@ cmd({
 
 cmd({
 
-            pattern: "ownercmdnew",
+            pattern: "اوامر-المالك",
 
             desc: "(menu cmdlist).",
 
@@ -604,7 +609,7 @@ cmd({
 
                     buttonText: {
 
-                        displayText: "Owner",
+                        displayText: "المطور",
 
                     },
 
@@ -618,7 +623,7 @@ cmd({
 
                     buttonText: {
 
-                        displayText: "Deploy Site",
+                        displayText: "نشر الموقع",
 
                     },
 
@@ -638,8 +643,8 @@ cmd({
 
                 caption: `
 
-📟 *Command:-* .install
-ℹ️ *Description:-* Install Plugins
+📟 *Command:-* .تحميل
+ℹ️ *Description:-* تثبيت رابط البرنامج
 🔥 *Help:-* .install Plugin Url 
 
 
@@ -648,48 +653,48 @@ cmd({
 🔥 *Help:-* .plugins 
 
 
-📟 *Command:-* .block
-ℹ️ *Description:-* Block User 
-🔥 *Help:-* .block Tag user or PM Chat
+📟 *Command:-* .حظر
+ℹ️ *Description:-* حظر المستخدم
+🔥 *Help:-* منشن واعمل حظر
 
 
-📟 *Command:-* .unblock
-ℹ️ *Description:-* Unblock User
-🔥 *Help:-* .unblock Tag user or PM Chat
+📟 *Command:-* .فك-الحظر
+ℹ️ *Description:-* سيتم اطلاق سراح المستخدم
+🔥 *Help:-* منشن واعمل فك
 
 
-📟 *Command:-* .remove
+📟 *Command:-* .ازالة
 ℹ️ *Description:-* Remove Plugins 
 🔥 *Help:-* .remove plugin url
 
 
-📟 *Command:-* .join
-ℹ️ *Description:-* Join Group Using Whatsapp group url 
-🔥 *Help:-* .join whatsapp group url
+📟 *Command:-* .ادخل
+ℹ️ *Description:-* البوت يدخل اي جروب عن طريق الامر
+🔥 *Help:-* منشن ع الرابط واكتب ادخل
 
 
-*📟Command:-* .restart
-ℹ️ *Description:-* Restart Bot 
-🔥 *Help:-* .restart
+*📟Command:-* .رستر
+ℹ️ *Description:-* اعادة تشغيل البوت
+🔥 *Help:-* .رستر
 
 
-📟 *Command:-* .save
-ℹ️ *Description:-* Save notes from mongodb 
-🔥 *Help:-* .save prabath-md
+📟 *Command:-* .حفظ
+ℹ️ *Description:-* حفظ الملاحظات من mongodb 
+🔥 *Help:-* .حفظ gonbot-md
 
 
 📟 *Command:-* .get
-ℹ️ *Description:-* Get saved notes
+ℹ️ *Description:-* احصل على ملاحظات محفوظة
 🔥 *Help:-* .get
 
 
 📟 *Command:-* .dnote
-ℹ️ *Description:-* Delete saved notes
+ℹ️ *Description:-* حذف الملاحظات المحفوظه
 🔥 *Help:-* .dnote ENTER NOTE ID
 
 
 📟 *Command:-* .dallnote
-ℹ️ *Description:-* Delete all saved notes
+ℹ️ *Description:-* احذف جميع الملاحظات المحفوظه
 🔥 *Help:-* .dallnote
 
 
@@ -743,7 +748,7 @@ cmd({
 
                     buttonText: {
 
-                        displayText: "Owner",
+                        displayText: "المطور",
 
                     },
 
@@ -777,29 +782,29 @@ cmd({
 
                 caption: `
 
-📟 *Command:-* .system
-ℹ️ *Description:-* system status
-🔥 *Help:-* .system
+📟 *Command:-* .سيستم
+ℹ️ *Description:-* حالة النظام
+🔥 *Help:-* .سيستم
 
 
-📟 *Command:-* .weather
-ℹ️ *Description:-* weather test 
-🔥 *Help:-* .weather Your location
+📟 *Command:-* .الطقس
+ℹ️ *Description:-* يجيب لك الطقس
+🔥 *Help:-* اكتب الطقس واسم البلد
 
 
 📟 *Command:-* .eval
-ℹ️ *Description:-* run codes
+ℹ️ *Description:-* اكواد التشغيل
 🔥 *Help:-* .eval 
 
 
-📟 *Command:-* .chat
-ℹ️ *Description:-* Chat Bot
-🔥 *Help:-* . .chat  Bot
+📟 *Command:-* .شات 
+ℹ️ *Description:-* شات البوت
+🔥 *Help:-* شات البوت
 
 
-📟 *Command:-* .trt
-ℹ️ *Description:-* Google translate  
-🔥 *Help:-* .trt active
+📟 *Command:-* .ترجم
+ℹ️ *Description:-* مترجم جوجل 
+🔥 *Help:-* ترجمة النص
 
 
 ⦿. *REQUEST BY:* ${citel.pushName}
@@ -886,14 +891,14 @@ cmd({
 
                 caption: `
 
-📟 *Command:-* .trt
-ℹ️ *Description:-* Any language trt to sinhala
+📟 *Command:-* .ترجمة
+ℹ️ *Description:-* سيتم ترجمة اي لغة
 🔥 *Help:-* .trt mantion text
 
 
-📟 *Command:-* .sticker
-ℹ️ *Description:-* Photo or video to sticker 
-🔥 *Help:-* .sticker mantion image
+📟 *Command:-* .ملصق
+ℹ️ *Description:-* منشن صورة او فيديو حتى يتم صنعه الى ملصق
+🔥 *Help:-* منشن صورة واكتب ملصقط
 
 ⦿. *REQUEST BY:* ${citel.pushName}
 
